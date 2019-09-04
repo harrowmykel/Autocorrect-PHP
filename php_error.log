@@ -1,0 +1,17 @@
+[05-Sep-2019 00:00:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '++' (T_INC) in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 42
+[05-Sep-2019 00:01:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 171
+[05-Sep-2019 00:01:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 176
+[05-Sep-2019 00:02:08 Europe/Berlin] PHP Warning:  file_get_contents(C:\xamppp\htdocs\GitProjects\Autocorrect-PHPwords.txt) [<a href='0function.file-get-contents0'>function.file-get-contents0</a>]: failed to open stream: No such file or directory in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 31
+[05-Sep-2019 00:02:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getWordCount() in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php:135
+Stack trace:
+#0 C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\index.php(6): AutoCorrect->correct('boyh')
+#1 {main}
+  thrown in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 135
+[05-Sep-2019 00:02:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getWordCount() in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php:135
+Stack trace:
+#0 C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\index.php(6): AutoCorrect->correct('boyh')
+#1 {main}
+  thrown in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 135
+[05-Sep-2019 00:03:04 Europe/Berlin] PHP Notice:  Undefined variable: value in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 55
+[05-Sep-2019 00:03:04 Europe/Berlin] PHP Notice:  Undefined variable: value in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\autocorrect.php on line 55
+[05-Sep-2019 00:18:35 Europe/Berlin] PHP Notice:  Undefined variable: correction in C:\xamppp\htdocs\GitProjects\Autocorrect-PHP\index.php on line 16
